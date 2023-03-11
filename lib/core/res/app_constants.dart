@@ -1,0 +1,4 @@
+class AppConstants {
+  static const String projectId = "63f073a406d0afd60726";
+  static const String endpoint = "http://localhost/v1";
+}
