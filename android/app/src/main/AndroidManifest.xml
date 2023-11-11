@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.popupbits.flutter_appwrite">
    <application
-        android:label="flutter_appwrite"
+        android:label="clicker"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

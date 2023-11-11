@@ -23,7 +23,8 @@ class AuthState extends ChangeNotifier {
   _init() {
     _isLoggedIn = false;
     client.setEndpoint(AppConstants.endpoint)
-        .setProject(AppConstants.projectId);
+        .setProject(AppConstants.projectId)
+        .setSelfSigned(status: true); // For self signed certificates, only use for development
     account = Account(client);
     _checkIsLoggedIn();
   }
